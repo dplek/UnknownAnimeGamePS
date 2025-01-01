@@ -2458,8 +2458,9 @@ public class PacketOpcodes {
     public static final int WorldOwnerDailyTaskNotify = 1;
 
     // Unknown
-    public static final HashSet<Integer> BANNED_PACKETS = new HashSet<>() {
-        {
-        }
-    };
+    public static final HashSet<Integer> BANNED_PACKETS =
+            new HashSet<>() {
+                {
+                }
+            };
 }
